@@ -1,5 +1,7 @@
 # react-document-title
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/react-document-title.svg)](https://greenkeeper.io/)
+
 [Online Demo](https://axetroy.github.io/react-document-title/)
 
 ### Installation
