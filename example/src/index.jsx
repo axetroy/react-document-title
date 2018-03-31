@@ -14,37 +14,37 @@ class App extends React.Component {
     return (
       <div>
         <DocumentTitle title={this.state.title}>
-          <h4>点击切换title, 当前为: {this.state.title.join(' | ')}</h4>
+          <h4>Click and change title, current: {this.state.title.join(' | ')}</h4>
           <p>
             <a
               href="javascript: void 0"
               onClick={() => this.setState({ title: ['Axetroy'] })}
             >
-              主页
+              Home
             </a>
           </p>
           <p>
             <a
               href="javascript: void 0"
-              onClick={() => this.setState({ title: ['博客', 'Axetroy'] })}
+              onClick={() => this.setState({ title: ['Blog', 'Axetroy'] })}
             >
-              博客
+              Blog
             </a>
           </p>
           <p>
             <a
               href="javascript: void 0"
-              onClick={() => this.setState({ title: ['新闻', 'Axetroy'] })}
+              onClick={() => this.setState({ title: ['News', 'Axetroy'] })}
             >
-              新闻
+              News
             </a>
           </p>
           <p>
             <a
               href="javascript: void 0"
-              onClick={() => this.setState({ title: ['关于', 'Axetroy'] })}
+              onClick={() => this.setState({ title: ['About', 'Axetroy'] })}
             >
-              关于
+              About
             </a>
           </p>
         </DocumentTitle>

@@ -9,7 +9,7 @@ module.exports = {
   },
   externals: {
     react: 'react',
-    proptypes: 'proptypes'
+    "prop-types": 'prop-types'
   },
   module: {
     loaders: [

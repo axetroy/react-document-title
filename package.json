@@ -30,9 +30,9 @@
   },
   "homepage": "https://github.com/axetroy/react-document-title#readme",
   "peerDependencies": {
+    "prop-types": "^15.6.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "proptypes": "^1.1.0"
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -42,11 +42,12 @@
     "babel-preset-stage-0": "^6.24.1",
     "copy-webpack-plugin": "^4.3.0",
     "gh-pages": "^1.1.0",
-    "proptypes": "^1.1.0",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "rimraf": "^2.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
-  }
+  },
+  "dependencies": {}
 }

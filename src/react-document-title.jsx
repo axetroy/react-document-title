@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import PropTypes from 'proptypes';
+import PropTypes from 'prop-types';
 
 export default class DocumentTitle extends Component {
-  PropTypes = {
+  static propTypes = {
     title: PropTypes.array,
     revert: PropTypes.bool
   };
 
   componentWillMount() {
-    // 存储原始的title
+    // store origin title
     this.__originTitle = document.title;
     const { title, suffix, root } = this.props;
     if (title) {
